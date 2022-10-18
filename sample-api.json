@@ -1,0 +1,258 @@
+{
+  "state_transitions": {
+    "daily": [
+      {
+        "period": "2022-01-01",
+        "interval": "day",
+        "states": [
+          {
+            "state": "PROCESSING",
+            "count": "2441",
+            "unique_count": "2334"
+          },
+          {
+            "state": "COMPLETED",
+            "count": "2320",
+            "unique_count": "2320"
+          },
+          {
+            "state": "FAILED",
+            "count": "13",
+            "unique_count": "8"
+          },
+          {
+            "state": "INVALID",
+            "count": "5",
+            "unique_count": "5"
+          },
+          {
+            "state": "ABORTED",
+            "count": "8",
+            "unique_count": "6"
+          }
+        ]
+      },
+      {
+        "period": "2022-01-02",
+        "interval": "day",
+        "states": [
+          {
+            "state": "PROCESSING",
+            "count": "3189",
+            "unique_count": "3181"
+          },
+          {
+            "state": "COMPLETED",
+            "count": "3132",
+            "unique_count": "3132"
+          },
+          {
+            "state": "FAILED",
+            "count": "23",
+            "unique_count": "20"
+          },
+          {
+            "state": "INVALID",
+            "count": "2",
+            "unique_count": "2"
+          },
+          {
+            "state": "ABORTED",
+            "count": "34",
+            "unique_count": "34"
+          }
+        ]
+      }
+    ],
+    "hourly": [
+      {
+        "period": "2022-01-03T00:00:00Z",
+        "interval": "hour",
+        "states": [
+          {
+            "state": "PROCESSING",
+            "count": "34",
+            "unique_count": "32"
+          },
+          {
+            "state": "COMPLETED",
+            "count": "52",
+            "unique_count": "52"
+          },
+          {
+            "state": "FAILED",
+            "count": "2",
+            "unique_count": "2"
+          },
+          {
+            "state": "INVALID",
+            "count": "1",
+            "unique_count": "1"
+          },
+          {
+            "state": "ABORTED",
+            "count": "4",
+            "unique_count": "3"
+          }
+        ]
+      },
+      {
+        "period": "2022-01-03T01:00:00Z",
+        "interval": "hour",
+        "states": [
+          {
+            "state": "PROCESSING",
+            "count": "21",
+            "unique_count": "19"
+          },
+          {
+            "state": "COMPLETED",
+            "count": "8",
+            "unique_count": "8"
+          },
+          {
+            "state": "FAILED",
+            "count": "2",
+            "unique_count": "2"
+          },
+          {
+            "state": "INVALID",
+            "count": "0",
+            "unique_count": "0"
+          },
+          {
+            "state": "ABORTED",
+            "count": "0",
+            "unique_count": "0"
+          }
+        ]
+      },
+      {
+        "period": "2022-01-03T02:00:00Z",
+        "interval": "hour",
+        "states": [
+          {
+            "state": "PROCESSING",
+            "count": "84",
+            "unique_count": "84"
+          },
+          {
+            "state": "COMPLETED",
+            "count": "76",
+            "unique_count": "76"
+          },
+          {
+            "state": "FAILED",
+            "count": "5",
+            "unique_count": "5"
+          },
+          {
+            "state": "INVALID",
+            "count": "1",
+            "unique_count": "1"
+          },
+          {
+            "state": "ABORTED",
+            "count": "1",
+            "unique_count": "1"
+          }
+        ]
+      },
+      {
+        "period": "2022-01-03T03:00:00Z",
+        "interval": "hour",
+        "states": [
+          {
+            "state": "PROCESSING",
+            "count": "93",
+            "unique_count": "93"
+          },
+          {
+            "state": "COMPLETED",
+            "count": "91",
+            "unique_count": "91"
+          },
+          {
+            "state": "FAILED",
+            "count": "4",
+            "unique_count": "4"
+          },
+          {
+            "state": "INVALID",
+            "count": "1",
+            "unique_count": "1"
+          },
+          {
+            "state": "ABORTED",
+            "count": "1",
+            "unique_count": "1"
+          }
+        ]
+      }
+    ],
+    "hourly_rolling": [
+      {
+        "period": "2022-01-03T03:34:28Z",
+        "interval": "hour",
+        "states": [
+          {
+            "state": "PROCESSING",
+            "count": "12",
+            "unique_count": "11"
+          },
+          {
+            "state": "COMPLETED",
+            "count": "25",
+            "unique_count": "25"
+          },
+          {
+            "state": "FAILED",
+            "count": "1",
+            "unique_count": "1"
+          },
+          {
+            "state": "INVALID",
+            "count": "0",
+            "unique_count": "0"
+          },
+          {
+            "state": "ABORTED",
+            "count": "0",
+            "unique_count": "0"
+          }
+        ]
+      },
+      {
+        "period": "2022-01-03T02:34:28Z",
+        "interval": "hour",
+        "states": [
+          {
+            "state": "PROCESSING",
+            "count": "12",
+            "unique_count": "12"
+          },
+          {
+            "state": "COMPLETED",
+            "count": "25",
+            "unique_count": "25"
+          },
+          {
+            "state": "FAILED",
+            "count": "1",
+            "unique_count": "1"
+          },
+          {
+            "state": "INVALID",
+            "count": "0",
+            "unique_count": "0"
+          },
+          {
+            "state": "ABORTED",
+            "count": "0",
+            "unique_count": "0"
+          }
+        ]
+      }
+    ]
+  }
+}
